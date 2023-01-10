@@ -51,7 +51,7 @@ template <typename T> Node<T> *List<T>::getTail() {
     return NULL;
   } else {
     Node<T> *current = head;
-    if (current->next == NULL) {
+    if (current->next != NULL) {
       tail = current;
     } else {
       while (current->next == NULL) {
