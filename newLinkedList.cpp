@@ -2,13 +2,7 @@
 #include <cstddef>
 #include <iostream>
 #include <iterator>
-#include <regex>
 #include <utility>
-#include <vector>
-
-// TO DO:
-//-Od konca do poczatku
-//-Usuwanie elementu
 
 template <typename T> class Node {
 public:
