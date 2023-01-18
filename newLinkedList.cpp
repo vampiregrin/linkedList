@@ -1,10 +1,6 @@
 #include <cassert>
 #include <cstddef>
 #include <iostream>
-#include <iterator>
-#include <regex>
-#include <utility>
-#include <vector>
 
 template <typename T> class Node {
 public:
